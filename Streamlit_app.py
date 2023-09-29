@@ -128,7 +128,7 @@ def conclusion():
         st.write("¡Hola! Si te preguntas quién soy, brevemente te diré que soy un científico de datos y economista (graduado y colegiado, sí), pero ante todo un friki de los datos. No tengo problemas en admitirlo. ¡Amo el mundo analítico! Tanto que pienso en él a diario, busco siempre aprender algo nuevo y pienso en cómo enfocar diferentes problemas, desde cotidianos a no cotidianos, usando este tipo de enfoque (sí, no era una exageración lo de que soy un friki de los datos jaja)")
         st.write("Si tienes alguna duda, quieres que charlemos o, incluso, eres algún profesional y consideras que puedo cubrir alguna vacante en tu compañía y aportaros valor, ¡no dudes en contactarme!")
         st.image("https://1000marcas.net/wp-content/uploads/2020/01/Logo-Linkedin.png")
-        url = "Ya sabes... [¡Click aquí!](www.linkedin.com/in/adrián-chávez)"
+        url = "Ya sabes... [¡Click aquí!](https://www.linkedin.com/in/adri%C3%A1n-ch%C3%A1vez/)"
         st.write(url, unsafe_allow_html = True)
 
 def main():
