@@ -87,7 +87,7 @@ def project():
         
         submitted = st.form_submit_button("Ejecutar")
         
-    model = load(open("Items/Modelo seleccionado.sav", "rb"))
+    model = load(open("Data/Modelo_seleccionado.sav", "rb"))
     
     if submitted:
         variables = (t2_tower, t1_tower, inhibitor, t2_inhibitor, t1_inhibitor, tower, baron, t2_dragon, t1_dragon, t1_baron, t2_baron, dragon)
