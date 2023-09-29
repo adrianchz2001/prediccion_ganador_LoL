@@ -13,7 +13,9 @@ def intro():
             boton_1 = st.button("¿Qué es el LoL?", key = "LoL")
         
         if boton_1 == True:
-            st.write("El LoL (League of Legends) es un videojuego competitivo por equipos. En este, el objetivo consiste en llegar los primeros a la base enemiga y destruir la estructura conocida como 'Nexo'. Quien primero lo haga, gana./nLa mecánica parece simple, pero implica mucho más. Hay dragones que otorgan ventajas a quienes los vencen; existen heraldos y barones que generan también efectos positivos de una u otra manera; existen objetos que otorgan diferentes estadísticas.../n¡El juego puede llegar a ser tan complicado que los jugadores han dividido la teoría de éste en lo que se conoce como 'macrogame' y 'microgame'!/nUna auténtica locura, pero en este proyecto nos proponemos a generar una predicción fiable de qué equipo ganará introduciendo unos datos clave.")
+            st.write("El LoL (League of Legends) es un videojuego competitivo por equipos. En este, el objetivo consiste en llegar los primeros a la base enemiga y destruir la estructura conocida como 'Nexo'. Quien primero lo haga, gana.")
+            st.write("La mecánica parece simple, pero implica mucho más. Hay dragones que otorgan ventajas a quienes los vencen; existen heraldos y barones que generan también efectos positivos de una u otra manera; existen objetos que otorgan diferentes estadísticas... ¡El juego puede llegar a ser tan complicado que los jugadores han dividido la teoría de éste en lo que se conoce como 'macrogame' y 'microgame'!")
+            st.write("Una auténtica locura, pero en este proyecto nos proponemos a generar una predicción fiable de qué equipo ganará introduciendo unos datos clave.")
         
         with c2:
             boton_2 = st.button("Metodología aplicada", key = "Method")
