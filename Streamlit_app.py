@@ -30,7 +30,7 @@ def intro():
             st.write("Además, presentaba la siguiente matriz de confusión:")
             st.image("Data/matriz_de_confusion.png")
             st.write(f"Finalmente, se ha comprobado que estos buenos resultados no han sido producto de un sobreentrenamiento, pues al realizar una validación cruzada, empleando K-Fold con 100 splits, hemos obtenido un resultado promedio de 97% de accuracy.")
-            st.write(f"Todo esto nos dice que tenemos un modelo que es bastante exacto a la hora de predecir; que posee una gran capacidad de separar verdaderos de falsos positivos (precisión), además de verdaderos positivos de falsos negativos (sensibilidad) y que, en total, se equivoca un 3% de las veces. Su pérdida de logarítmica es de 0.06, lo que indica una elevada probabilidad de que sus predicciones se cumplan. Por ende, consideramos haber entrenado un modelo bastante fiable.")
+            st.write(f"Todo esto nos dice que tenemos un modelo que es bastante exacto a la hora de predecir; que posee una gran capacidad de separar verdaderos de falsos positivos (precisión), además de verdaderos positivos de falsos negativos (sensibilidad) y que, en total, se equivoca un 3% de las veces. Su pérdida logarítmica es de 0.06, lo que indica una elevada probabilidad de que sus predicciones se cumplan. Por ende, consideramos haber entrenado un modelo bastante fiable.")
 def project():
     with st.form("Introduce los datos:"):
         st.write("*Recuerda comprobar si has aparecido en el lado del equipo azul o del equipo rojo*")
